@@ -1,0 +1,505 @@
+{
+ "brand": "Your Brand",
+ "currency": "৳",
+ "whatsapp": "8801748127559",
+ "messengerPerfume": "riverineperfumes",
+ "messengerOil": "fragroot",
+ "labels": {
+  "perfume": "Perfume",
+  "attar": "Attar & Oil"
+ },
+ "logo": {
+  "perfume": "logo-riverine.png",
+  "attar": "logo-fragroot.png"
+ },
+ "about": "",
+ "delivery": {
+  "note": "After 2 kg, ৳25 per kg will apply.",
+  "zones": [
+   {
+    "name": "Bogura to Bogura",
+    "rates": [
+     {
+      "weight": "Up to 500 gm",
+      "charge": "৳60"
+     },
+     {
+      "weight": "0.5 kg – 1 kg",
+      "charge": "৳70"
+     },
+     {
+      "weight": "1 kg – 2 kg",
+      "charge": "৳90"
+     }
+    ]
+   },
+   {
+    "name": "Bogura to Dhaka",
+    "rates": [
+     {
+      "weight": "Up to 500 gm",
+      "charge": "৳110"
+     },
+     {
+      "weight": "0.5 kg – 1 kg",
+      "charge": "৳130"
+     },
+     {
+      "weight": "1 kg – 2 kg",
+      "charge": "৳170"
+     }
+    ]
+   },
+   {
+    "name": "Bogura to Other District",
+    "rates": [
+     {
+      "weight": "Up to 500 gm",
+      "charge": "৳120"
+     },
+     {
+      "weight": "0.5 kg – 1 kg",
+      "charge": "৳145"
+     },
+     {
+      "weight": "1 kg – 2 kg",
+      "charge": "৳180"
+     }
+    ]
+   }
+  ]
+ },
+ "policies": {
+  "shipping": {
+   "title": "Shipping & Delivery",
+   "body": ""
+  },
+  "returns": {
+   "title": "Return & Refund Policy",
+   "body": ""
+  },
+  "privacy": {
+   "title": "Privacy Policy",
+   "body": "Privacy Policy\nEffective Date: 4 October 2026\nWebsite: https://fragroot-riverine-perfumes.edgeone.dev/\nBusiness Name: Fragroot | Riverine Perfumes\n1. Introduction\nWelcome to Fragroot | Riverine Perfumes. We value your privacy and are committed to protecting your personal information when you visit our website, browse our products, place an order, or communicate with us.\nThis Privacy Policy explains what information we collect, how we use it, how we protect it, and what choices you have regarding your personal information.\nBy using our website, you acknowledge that you have read and understood this Privacy Policy.\n2. Information We Collect\nWe may collect the following types of information when you interact with our website or purchase our products.\n2.1 Personal Information\nWhen you place an order, create an account, or contact us, we may collect:\n•\tFull name\n•\tMobile phone number\n•\tEmail address\n•\tBilling and delivery address\n•\tOrder details and purchase history\n•\tInformation you provide through customer service messages\n2.2 Payment Information\nWe may collect payment-related information necessary to process your purchases. Payments may be handled by third-party payment providers, mobile financial services, banks, or cash-on-delivery services.\nWe do not intend to store complete payment card details on our website.\n2.3 Technical Information\nWhen you visit our website, certain information may be collected automatically, including:\n•\tIP address\n•\tBrowser type and device information\n•\tPages visited and time spent on the website\n•\tReferring website or traffic source\n•\tWebsite usage and interaction data\n2.4 Cookies and Similar Technologies\nOur website may use cookies and similar technologies to remember your preferences, maintain shopping cart functionality, improve website performance, and understand visitor behaviour.\nYou can manage or disable cookies through your browser settings. Some website features may not function properly if certain cookies are disabled.\n3. How We Use Your Information\nWe use the information collected for the following purposes:\n•\tTo process, confirm, and deliver your orders.\n•\tTo communicate about order status, delivery, returns, and customer support.\n•\tTo manage payments, refunds, and order records.\n•\tTo improve our website, products, services, and customer experience.\n•\tTo prevent fraudulent transactions, misuse, and unauthorized activities.\n•\tTo send promotional messages, product announcements, offers, and updates where permitted.\n•\tTo comply with applicable legal, tax, accounting, and regulatory obligations.\nWe collect and use only the information reasonably necessary for these purposes.\n4. Sharing of Personal Information\nWe do not sell your personal information to third parties.\nHowever, we may share relevant information with trusted service providers when necessary to operate our business, including:\n•\tDelivery and courier companies: To deliver your orders.\n•\tPayment service providers: To process payments and refunds.\n•\tWebsite hosting and technology providers: To maintain our website and related systems.\n•\tAnalytics and advertising providers: To measure website performance and advertising effectiveness, where applicable.\n•\tLegal and regulatory authorities: When disclosure is required by applicable law or a lawful request.\nWe expect service providers handling personal information on our behalf to use it only for authorized purposes and to apply appropriate safeguards.\n5. Order Processing and Delivery\nTo fulfil your purchase, we may share your name, phone number, delivery address, and relevant order details with courier companies and delivery personnel.\nThis information is used to facilitate delivery, contact you regarding your order, and resolve delivery-related issues.\nWe recommend providing accurate contact and delivery information to avoid delays or unsuccessful deliveries.\n6. Marketing and Promotional Communications\nWith your consent where required, we may send you information about new perfume arrivals, perfume oils, attars, decants, special offers, discounts, and other products or services.\nYou may opt out of promotional communications at any time by following the unsubscribe instructions, where available, or by contacting us directly.\nPlease note that even if you opt out of marketing messages, we may still contact you regarding your orders, payments, deliveries, or other essential service-related matters.\n7. Data Security\nWe take reasonable technical and organizational measures to protect your personal information against unauthorized access, loss, misuse, alteration, or disclosure.\nHowever, no method of electronic transmission or storage can be guaranteed to be completely secure. We cannot guarantee absolute security of information transmitted through the internet.\nIf a security incident affects your personal information, we will take appropriate steps in accordance with applicable legal requirements.\n8. Data Retention\nWe retain personal information only for as long as reasonably necessary to fulfil the purposes described in this Privacy Policy, including order fulfilment, customer service, accounting, legal compliance, and dispute resolution.\nWhen information is no longer required, we will take reasonable steps to delete it, anonymize it, or securely dispose of it, subject to applicable legal retention requirements.\n9. Your Privacy Rights\nSubject to applicable law, you may have the right to:\n•\tRequest access to personal information we hold about you.\n•\tRequest correction of inaccurate or incomplete information.\n•\tRequest deletion of personal information where legally permissible.\n•\tWithdraw consent for certain types of data processing.\n•\tOpt out of promotional communications.\n•\tAsk questions or raise concerns about how your personal information is handled.\nTo exercise these rights, please contact us using the details provided in the Contact Information section below. We may need to verify your identity before processing certain requests.\nSome information may need to be retained where required for legal, accounting, security, or legitimate business purposes.\n10. Third-Party Websites and Services\nOur website may contain links to third-party websites, social media platforms, payment services, or other external services.\nThese third parties may have their own privacy policies and data handling practices. We are not responsible for the privacy practices, content, or security of websites and services that we do not operate.\nWe encourage you to review the privacy policies of those third parties before providing personal information.\n11. Children's Privacy\nOur website is intended for general consumers and is not specifically designed to collect personal information from children.\nWe do not knowingly collect personal information from children in violation of applicable law. If we become aware that personal information has been collected unlawfully from a child, we will take appropriate steps to address the situation.\n12. International Data Transfers\nSome of our website hosting, analytics, payment, or technology service providers may process information outside Bangladesh.\nWhere personal information is transferred across borders, we will take reasonable steps to ensure that the transfer and subsequent processing comply with applicable legal requirements and appropriate data protection safeguards.\n13. Changes to This Privacy Policy\nWe may update this Privacy Policy from time to time to reflect changes in our business practices, website functionality, technology, or applicable laws.\nAny updated version will be published on this page with a revised effective date. We encourage you to review this page periodically to stay informed about how we protect your information.\n14. Contact Information\nIf you have any questions, concerns, or requests regarding this Privacy Policy or the handling of your personal information, please contact us:\nBusiness Name: Fragroot | Riverine Perfumes\nWebsite: https://fragroot-riverine-perfumes.edgeone.dev/\nEmail 1: riverineperfumes@gmail.com\nEmail 2: fragroot9@gmail.com\nPhone/WhatsApp: +880 1748-127559 \nBusiness Address: Bogura, Bangladesh\nWe will make reasonable efforts to respond to privacy-related inquiries within an appropriate timeframe.\n________________________________________\nBy using our website, you acknowledge this Privacy Policy and the practices described in it, subject to any consent requirements under applicable law.\n\n"
+  }
+ },
+ "products": {
+  "perfume": [
+   {
+    "id": "P1SANAYAB1",
+    "name": "Sanaya",
+    "brand": "Junaid Perfumes",
+    "sizes": [
+     {
+      "ml": 2,
+      "price": 155,
+      "soldOut": false
+     },
+     {
+      "ml": 3,
+      "price": 195,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 325,
+      "soldOut": false
+     },
+     {
+      "ml": 10,
+      "price": 485,
+      "soldOut": false
+     },
+     {
+      "ml": 15,
+      "price": 710,
+      "soldOut": false
+     },
+     {
+      "ml": 30,
+      "price": 1350,
+      "soldOut": false
+     }
+    ]
+   },
+   {
+    "id": "P1SANAYA40B1",
+    "name": "Sanaya 40",
+    "brand": "Junaid Perfumes",
+    "sizes": [
+     {
+      "ml": 2,
+      "price": 205,
+      "soldOut": false
+     },
+     {
+      "ml": 3,
+      "price": 265,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 455,
+      "soldOut": false
+     },
+     {
+      "ml": 10,
+      "price": 705,
+      "soldOut": false
+     },
+     {
+      "ml": 15,
+      "price": 1050,
+      "soldOut": false
+     },
+     {
+      "ml": 30,
+      "price": 2045,
+      "soldOut": false
+     }
+    ],
+    "soldOut": true
+   },
+   {
+    "id": "P1HICEB1",
+    "name": "Hawas Ice EDP",
+    "brand": "Rasasi",
+    "sizes": [
+     {
+      "ml": 2,
+      "price": 155,
+      "soldOut": false
+     },
+     {
+      "ml": 3,
+      "price": 195,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 320,
+      "soldOut": false
+     },
+     {
+      "ml": 10,
+      "price": 480,
+      "soldOut": false
+     },
+     {
+      "ml": 15,
+      "price": 695,
+      "soldOut": false
+     },
+     {
+      "ml": 30,
+      "price": 1320,
+      "soldOut": false
+     }
+    ]
+   },
+   {
+    "id": "P1ATLNTSXTRTB1",
+    "name": "Atlantis Extrait EDP",
+    "brand": "French Avenue",
+    "sizes": [
+     {
+      "ml": 2,
+      "price": 175,
+      "soldOut": false
+     },
+     {
+      "ml": 3,
+      "price": 220,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 370,
+      "soldOut": false
+     },
+     {
+      "ml": 10,
+      "price": 570,
+      "soldOut": false
+     },
+     {
+      "ml": 15,
+      "price": 830,
+      "soldOut": false
+     },
+     {
+      "ml": 30,
+      "price": 1610,
+      "soldOut": false
+     }
+    ]
+   },
+   {
+    "id": "P1LQBRUNB1",
+    "name": "Liquid Brun EDP",
+    "brand": "French Avenue",
+    "sizes": [
+     {
+      "ml": 2,
+      "price": 175,
+      "soldOut": false
+     },
+     {
+      "ml": 3,
+      "price": 220,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 370,
+      "soldOut": false
+     },
+     {
+      "ml": 10,
+      "price": 570,
+      "soldOut": false
+     },
+     {
+      "ml": 15,
+      "price": 830,
+      "soldOut": false
+     },
+     {
+      "ml": 30,
+      "price": 1610,
+      "soldOut": false
+     }
+    ]
+   },
+   {
+    "id": "P1RAYTERRAB1",
+    "name": "Terra EDP",
+    "brand": "Rayhan",
+    "sizes": [
+     {
+      "ml": 2,
+      "price": 140,
+      "soldOut": false
+     },
+     {
+      "ml": 3,
+      "price": 170,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 270,
+      "soldOut": false
+     },
+     {
+      "ml": 10,
+      "price": 395,
+      "soldOut": false
+     },
+     {
+      "ml": 15,
+      "price": 560,
+      "soldOut": false
+     },
+     {
+      "ml": 30,
+      "price": 1065,
+      "soldOut": false
+     }
+    ]
+   }
+  ],
+  "attar": [
+   {
+    "id": "P1SAUVAGEB1",
+    "name": "Sauvage Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 260,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 420,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 730,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "P1SAUVAGEELIXIRB1",
+    "name": "Sauvage Elixir Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 270,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 425,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 780,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "P1ULTRAMALEB1",
+    "name": "Ultra Male Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 240,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 365,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 660,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "P1LAMALEELIXIRB1",
+    "name": "La Male Elixir Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 255,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 395,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 720,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "P1JUICYAPPLEB1",
+    "name": "Eden Juicy Apple | 01 Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 250,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 390,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 705,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "P1PACIFICCHILLB1",
+    "name": "Pacific Chill Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 255,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 395,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 720,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "P1ANIB1",
+    "name": "Ani Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 270,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 425,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 780,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "P1ERBAPURAB1",
+    "name": "Erba Pura Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 245,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 370,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 670,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   }
+  ]
+ },
+ "bottles": [],
+ "names": {
+  "perfume": "Riverine Perfumes",
+  "attar": "Fragroot"
+ },
+ "giftRate": 0.5
+}
