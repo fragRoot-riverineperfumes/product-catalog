@@ -2147,7 +2147,7 @@
         clearTimeout(window._cpT);
         window._cpT = setTimeout(function () {
           if ($("cp").open) $("cp").close();
-        }, 6000);
+        }, 3000);
       });
       $("cp-close").addEventListener("click", function () {
         $("cp").close();
@@ -2168,7 +2168,7 @@
           p = POLICIES[key] || {};
         $("pd-t").textContent = p.title || b.textContent.trim();
         var box = $("pd-b"),
-          body = p.body || "";
+          body = (tab === "attar" && p.bodyAttar) || p.body || "";
         if (/<[a-z!\/][\s\S]*>/i.test(body)) {
           box.className = "htm";
           box.innerHTML = body;
