@@ -518,6 +518,64 @@
       #pd {
         width: min(920px, calc(100% - 24px));
       }
+      .seeb {
+        text-align: center;
+        margin: 6px 0 0;
+      }
+      .seeb .dlink {
+        margin: 0;
+        font-size: 0.9rem;
+      }
+      #bg {
+        width: min(640px, calc(100% - 24px));
+      }
+      #bg-g {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        gap: 12px;
+        max-height: 62vh;
+        overflow: auto;
+        margin: 10px 0;
+      }
+      #bg-g figure {
+        margin: 0;
+        text-align: center;
+      }
+      #bg-g img {
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 1px solid var(--line);
+        background: #fff;
+        display: block;
+      }
+      #bg-g figcaption {
+        margin-top: 4px;
+        font-size: 0.9rem;
+        line-height: 1.3;
+      }
+      #panel .pr {
+        text-align: right;
+        margin: 2px 0 4px;
+      }
+      #panel .pr button {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        font: inherit;
+        font-size: 0.8rem;
+        color: var(--mute);
+        background: none;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 3px 10px;
+        cursor: pointer;
+      }
+      #panel .pr .ic {
+        width: 14px;
+        height: 14px;
+      }
       #cp {
         text-align: center;
         width: min(380px, calc(100% - 32px));
@@ -534,6 +592,11 @@
       }
       #cp .dbtns {
         justify-content: center;
+      }
+      #cp .send {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
       }
       .search {
         max-width: 460px;
@@ -1067,6 +1130,12 @@
         <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z" />
         <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z" />
       </symbol>
+      <symbol id="i-trash" viewBox="0 0 24 24">
+        <polyline points="3 6 5 6 21 6" />
+        <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6" />
+        <path d="M10 11v6M14 11v6" />
+        <path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2" />
+      </symbol>
       <symbol id="i-cart" viewBox="0 0 24 24">
         <circle cx="9" cy="21" r="1" />
         <circle cx="20" cy="21" r="1" />
@@ -1097,6 +1166,9 @@
     </div>
     <div class="stick">
       <div class="tools" id="tools"></div>
+      <div class="seeb">
+        <button type="button" class="dlink" id="see-b">See Bottles</button>
+      </div>
     </div>
     <main id="list"></main>
     <footer>
@@ -1239,11 +1311,19 @@
           ><svg class="ic"><use href="#i-wa" /></svg>Send on WhatsApp</a
         >
         <button type="button" class="send alt" id="ms" disabled>
-          <svg class="ic"><use href="#i-msg" /></svg>Send on Messenger
+          <svg class="ic"><use href="#i-msg" /></svg>Copy Order and Send to
+          Messenger
         </button>
       </div>
       <div class="dbtns">
         <button type="button" class="close" id="ck-close">Back to cart</button>
+      </div>
+    </dialog>
+    <dialog id="bg">
+      <h2 id="bg-t">Bottles</h2>
+      <div id="bg-g"></div>
+      <div class="dbtns">
+        <button type="button" class="close" id="bg-close">Close</button>
       </div>
     </dialog>
     <dialog id="dl">
@@ -1253,12 +1333,8 @@
         <button type="button" class="close" id="dl-close">Close</button>
       </div>
     </dialog>
-    <dialog id="md">
-      <h2>Before you continue</h2>
-      <p>
-        Messenger cannot pre-fill text. Your order is copied when you tap it, so
-        paste it into the chat.
-      </p>
+    <dialog id="cp">
+      <p>Your order is copied. Now just paste it into messenger</p>
       <div class="dbtns">
         <a
           class="send"
@@ -1266,16 +1342,9 @@
           href="#"
           target="_blank"
           rel="noopener noreferrer"
-          ><svg class="ic"><use href="#i-msg" /></svg>Open Messenger</a
+          ><svg class="ic"><use href="#i-msg" /></svg>Send on Messenger</a
         >
-        <button type="button" class="close" id="md-close">Cancel</button>
-      </div>
-    </dialog>
-    <dialog id="cp">
-      <svg class="ic"><use href="#i-msg" /></svg>
-      <p>Your order is copied. Just paste (ctrl c + v) it into messenger</p>
-      <div class="dbtns">
-        <button type="button" class="close" id="cp-close">OK</button>
+        <button type="button" class="close" id="cp-close">Close</button>
       </div>
     </dialog>
     <dialog id="pd">
@@ -1329,6 +1398,9 @@
         DELIVERY_ZONES = [],
         POLICIES = {},
         BOTTLES = [],
+        PBOTTLES = [],
+        PB_ML = 30,
+        GALLERY = { perfume: [], attar: [] },
         DATA = { perfume: [], attar: [] };
 
       var ICON = {
@@ -1372,7 +1444,7 @@
             return x.ml == a[2];
           })[0],
           b = a[3] || "";
-        return { t: a[0], p: p, s: s, b: b, unit: s.price + bottleExtra(s, b) };
+        return { t: a[0], p: p, s: s, b: b, unit: s.price + bottleExtra(s, b, a[0]) };
       }
       function stepHtml(key, q) {
         var k = esc(key);
@@ -1386,10 +1458,14 @@
           '" aria-label="Increase">+</button></div>'
         );
       }
-      function bottleExtra(s, b) {
+      function bottlesFor(t, ml) {
+        if (t === "attar") return BOTTLES;
+        return t === "perfume" && +ml === PB_ML ? PBOTTLES : [];
+      }
+      function bottleExtra(s, b, t) {
         if (!b) return 0;
         if (s.bottles && s.bottles[b] != null) return +s.bottles[b];
-        var g = BOTTLES.filter(function (x) {
+        var g = bottlesFor(t || "attar", s.ml).filter(function (x) {
           return x.name === b;
         })[0];
         return g ? +g.price : 0;
@@ -1414,9 +1490,8 @@
               var f = find(k);
               if (f.p.soldOut || f.s.soldOut) return;
               if (
-                f.t === "attar" &&
                 f.b &&
-                !BOTTLES.some(function (b) {
+                !bottlesFor(f.t, f.s.ml).some(function (b) {
                   return b.name === f.b;
                 })
               )
@@ -1836,15 +1911,16 @@
                             s.ml +
                             "ml</b><span>Stock out</span></button></div>"
                           );
-                        var useB = tab === "attar" && BOTTLES.length,
+                        var BL = bottlesFor(tab, s.ml),
+                          useB = BL.length,
                           bk = p.id + "|" + s.ml;
-                        var b = useB ? bsel[bk] || BOTTLES[0].name : "";
+                        var b = useB ? bsel[bk] || BL[0].name : "";
                         var k = esc(keyOf(tab, p.id, s.ml, b)),
                           q = cart[keyOf(tab, p.id, s.ml, b)] || 0,
                           steps = "",
                           on = false;
                         if (useB) {
-                          BOTTLES.forEach(function (o) {
+                          BL.forEach(function (o) {
                             var kk = keyOf(tab, p.id, s.ml, o.name),
                               n = cart[kk] || 0;
                             if (n) {
@@ -1867,8 +1943,8 @@
                             '" aria-label="Bottle for ' +
                             s.ml +
                             'ml">' +
-                            BOTTLES.map(function (o) {
-                              var ex = bottleExtra(s, o.name);
+                            BL.map(function (o) {
+                              var ex = bottleExtra(s, o.name, tab);
                               return (
                                 '<option value="' +
                                 esc(o.name) +
@@ -1890,7 +1966,7 @@
                           '"><b>' +
                           s.ml +
                           "ml</b><span>" +
-                          fmt(s.price + bottleExtra(s, b)) +
+                          fmt(s.price + bottleExtra(s, b, tab)) +
                           "</span></button>" +
                           sel +
                           steps +
@@ -1931,7 +2007,8 @@
             : "") +
           "</small>";
         $("panel").innerHTML = n
-          ? g
+          ? '<div class="pr"><button type="button" data-reset="1" aria-label="Clear cart" title="Clear cart"><svg class="ic"><use href="#i-trash" /></svg>Clear cart</button></div>' +
+            g
               .filter(function (x) {
                 return x.items.length;
               })
@@ -2129,30 +2206,70 @@
           '<p class="dnote">Delivery charge rates will be added here soon.</p>';
         $("dl").showModal();
       });
+      $("see-b").addEventListener("click", function () {
+        var L = (GALLERY[tab] || []).filter(function (b) {
+          return b && (b.image || b.name);
+        });
+        $("bg-t").textContent = "Bottles — " + (LABEL[tab] || "");
+        $("bg-g").innerHTML = L.length
+          ? L.map(function (b) {
+              return (
+                "<figure>" +
+                (b.image
+                  ? '<img src="' + esc(b.image) + '" alt="' + esc(b.name || "") + '" loading="lazy">'
+                  : "") +
+                "<figcaption>" +
+                esc(b.name || "") +
+                "</figcaption></figure>"
+              );
+            }).join("")
+          : '<p class="dnote" style="grid-column:1/-1">Bottles will be added soon.</p>';
+        $("bg").showModal();
+      });
+      $("bg-close").addEventListener("click", function () {
+        $("bg").close();
+      });
       $("dl-close").addEventListener("click", function () {
         $("dl").close();
       });
+      function copyText(t) {
+        var ta = document.createElement("textarea");
+        ta.value = t;
+        ta.setAttribute("readonly", "");
+        ta.style.position = "fixed";
+        ta.style.opacity = "0";
+        ($("ck").open ? $("ck") : document.body).appendChild(ta);
+        ta.select();
+        try {
+          document.execCommand("copy");
+        } catch (e) {}
+        ta.remove();
+      }
       $("ms").addEventListener("click", function () {
-        $("md").showModal();
-      });
-      $("md-close").addEventListener("click", function () {
-        $("md").close();
+        var t = message();
+        copyText(t);
+        try {
+          if (navigator.clipboard)
+            navigator.clipboard.writeText(t).catch(function () {});
+        } catch (e) {}
+        $("cp").showModal();
       });
       $("ms-go").addEventListener("click", function () {
-        try {
-          navigator.clipboard.writeText(message());
-        } catch (e) {}
-        $("md").close();
-        $("cp").showModal();
-        clearTimeout(window._cpT);
-        window._cpT = setTimeout(function () {
-          if ($("cp").open) $("cp").close();
-        }, 3000);
+        setTimeout(function () {
+          $("cp").close();
+        }, 300);
       });
       $("cp-close").addEventListener("click", function () {
         $("cp").close();
       });
       $("panel").addEventListener("click", function (e) {
+        if (e.target.closest("button[data-reset]")) {
+          cart = {};
+          gifts = {};
+          saveCart();
+          render();
+          return;
+        }
         var b = e.target.closest("button[data-k]");
         if (b) {
           change(b.dataset.k, +b.dataset.a);
@@ -2217,7 +2334,7 @@
             d.close();
         });
       }
-      [$("pd"), $("dl"), $("im"), $("cp")].forEach(closeOnOutside);
+      [$("pd"), $("dl"), $("im"), $("cp"), $("bg")].forEach(closeOnOutside);
       $("im-close").addEventListener("click", function () {
         $("im").close();
       });
@@ -2261,6 +2378,9 @@
         TAGLINES = Object.assign({}, TAGLINES, c.taglines || {});
         DATA = c.products;
         BOTTLES = c.bottles || [];
+        PBOTTLES = c.perfumeBottles || [];
+        PB_ML = c.perfumeBottleMl != null ? +c.perfumeBottleMl : 30;
+        GALLERY = Object.assign({ perfume: [], attar: [] }, c.bottleGallery || {});
         $("f-wa").href = "https://wa.me/" + WHATSAPP_NUMBER;
         loadCart();
         render();
