@@ -103,7 +103,7 @@
      },
      {
       "ml": 3,
-      "price": 275,
+      "price": 270,
       "soldOut": false
      },
      {
@@ -118,7 +118,7 @@
      },
      {
       "ml": 15,
-      "price": 1075,
+      "price": 1070,
       "soldOut": false
      },
      {
@@ -140,7 +140,7 @@
      },
      {
       "ml": 3,
-      "price": 200,
+      "price": 195,
       "soldOut": false
      },
      {
@@ -178,7 +178,7 @@
      },
      {
       "ml": 3,
-      "price": 190,
+      "price": 185,
       "soldOut": false
      },
      {
@@ -193,7 +193,7 @@
      },
      {
       "ml": 15,
-      "price": 700,
+      "price": 695,
       "soldOut": false
      },
      {
@@ -215,7 +215,7 @@
      },
      {
       "ml": 3,
-      "price": 170,
+      "price": 165,
       "soldOut": false
      },
      {
@@ -252,7 +252,7 @@
      },
      {
       "ml": 3,
-      "price": 220,
+      "price": 215,
       "soldOut": false
      },
      {
@@ -267,7 +267,7 @@
      },
      {
       "ml": 15,
-      "price": 845,
+      "price": 840,
       "soldOut": false
      },
      {
@@ -289,7 +289,7 @@
      },
      {
       "ml": 3,
-      "price": 220,
+      "price": 215,
       "soldOut": false
      },
      {
@@ -304,7 +304,7 @@
      },
      {
       "ml": 15,
-      "price": 775,
+      "price": 770,
       "soldOut": false
      },
      {
@@ -317,18 +317,64 @@
   ],
   "attar": [
    {
-    "id": "P1SAUVAGEB1",
+    "id": "ULTRML",
+    "name": "Ultra Male Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 220,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 370,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 655,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "SVGELXR",
+    "name": "Sauvage Elixir Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 250,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 430,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 775,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "SVG",
     "name": "Sauvage Perfume Oil",
     "type": "Synthetic",
     "sizes": [
      {
       "ml": 3,
-      "price": 260,
+      "price": 240,
       "soldOut": false
      },
      {
       "ml": 6,
-      "price": 420,
+      "price": 405,
       "soldOut": false
      },
      {
@@ -340,77 +386,54 @@
     "giftable": true
    },
    {
-    "id": "P1SAUVAGEELIXIRB1",
-    "name": "Sauvage Elixir Perfume Oil",
+    "id": "PCFCCHL",
+    "name": "Pacific Chill Perfume Oil",
     "type": "Synthetic",
     "sizes": [
      {
       "ml": 3,
-      "price": 270,
+      "price": 235,
       "soldOut": false
      },
      {
       "ml": 6,
-      "price": 425,
+      "price": 400,
       "soldOut": false
      },
      {
       "ml": 12,
-      "price": 780,
+      "price": 715,
       "soldOut": false
      }
     ],
     "giftable": true
    },
    {
-    "id": "P1ULTRAMALEB1",
-    "name": "Ultra Male Perfume Oil",
-    "type": "Synthetic",
-    "sizes": [
-     {
-      "ml": 3,
-      "price": 240,
-      "soldOut": false
-     },
-     {
-      "ml": 6,
-      "price": 365,
-      "soldOut": false
-     },
-     {
-      "ml": 12,
-      "price": 660,
-      "soldOut": false
-     }
-    ],
-    "giftable": true
-   },
-   {
-    "id": "P1LAMALEELIXIRB1",
+    "id": "LMLELXR",
     "name": "La Male Elixir Perfume Oil",
     "type": "Synthetic",
     "sizes": [
      {
       "ml": 3,
-      "price": 255,
+      "price": 235,
       "soldOut": false
      },
      {
       "ml": 6,
-      "price": 395,
+      "price": 400,
       "soldOut": false
      },
      {
       "ml": 12,
-      "price": 720,
+      "price": 715,
       "soldOut": false
      }
     ],
     "giftable": true
    },
    {
-    "id": "P1JUICYAPPLEB1",
-    "name": "Eden Juicy Apple | 01 Perfume Oil",
+    "id": "ANI",
+    "name": "Nishane Ani Perfume Oil",
     "type": "Synthetic",
     "sizes": [
      {
@@ -420,81 +443,58 @@
      },
      {
       "ml": 6,
-      "price": 390,
+      "price": 430,
       "soldOut": false
      },
      {
       "ml": 12,
-      "price": 705,
+      "price": 775,
       "soldOut": false
      }
     ],
     "giftable": true
    },
    {
-    "id": "P1PACIFICCHILLB1",
-    "name": "Pacific Chill Perfume Oil",
-    "type": "Synthetic",
-    "sizes": [
-     {
-      "ml": 3,
-      "price": 255,
-      "soldOut": false
-     },
-     {
-      "ml": 6,
-      "price": 395,
-      "soldOut": false
-     },
-     {
-      "ml": 12,
-      "price": 720,
-      "soldOut": false
-     }
-    ],
-    "giftable": true
-   },
-   {
-    "id": "P1ANIB1",
-    "name": "Ani Perfume Oil",
-    "type": "Synthetic",
-    "sizes": [
-     {
-      "ml": 3,
-      "price": 270,
-      "soldOut": false
-     },
-     {
-      "ml": 6,
-      "price": 425,
-      "soldOut": false
-     },
-     {
-      "ml": 12,
-      "price": 780,
-      "soldOut": false
-     }
-    ],
-    "giftable": true
-   },
-   {
-    "id": "P1ERBAPURAB1",
+    "id": "ERBPRA",
     "name": "Erba Pura Perfume Oil",
     "type": "Synthetic",
     "sizes": [
      {
       "ml": 3,
-      "price": 245,
+      "price": 220,
       "soldOut": false
      },
      {
       "ml": 6,
-      "price": 370,
+      "price": 375,
       "soldOut": false
      },
      {
       "ml": 12,
       "price": 670,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "JCAPL",
+    "name": "Eden Juicy Apple | 01 Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 230,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 390,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 700,
       "soldOut": false
      }
     ],
