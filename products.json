@@ -92,99 +92,98 @@
  "products": {
   "perfume": [
    {
-    "id": "P1SANAYAB1",
-    "name": "Sanaya",
-    "brand": "Junaid Perfumes",
-    "sizes": [
-     {
-      "ml": 2,
-      "price": 155,
-      "soldOut": false
-     },
-     {
-      "ml": 3,
-      "price": 195,
-      "soldOut": false
-     },
-     {
-      "ml": 6,
-      "price": 325,
-      "soldOut": false
-     },
-     {
-      "ml": 10,
-      "price": 485,
-      "soldOut": false
-     },
-     {
-      "ml": 15,
-      "price": 710,
-      "soldOut": false
-     },
-     {
-      "ml": 30,
-      "price": 1350,
-      "soldOut": false
-     }
-    ],
-    "image": "images/p1sanayab1-muxj0quk.jpg"
-   },
-   {
-    "id": "P1SANAYA40B1",
+    "id": "SNYA40",
     "name": "Sanaya 40",
     "brand": "Junaid Perfumes",
     "sizes": [
      {
       "ml": 2,
-      "price": 205,
+      "price": 200,
       "soldOut": false
      },
      {
       "ml": 3,
-      "price": 265,
+      "price": 275,
       "soldOut": false
      },
      {
       "ml": 6,
-      "price": 455,
+      "price": 480,
       "soldOut": false
      },
      {
       "ml": 10,
-      "price": 705,
+      "price": 750,
       "soldOut": false
      },
      {
       "ml": 15,
-      "price": 1050,
+      "price": 1075,
       "soldOut": false
      },
      {
       "ml": 30,
-      "price": 2045,
+      "price": 2100,
+      "soldOut": false
+     }
+    ]
+   },
+   {
+    "id": "SNYA",
+    "name": "Sanaya",
+    "brand": "Junaid Perfumes",
+    "sizes": [
+     {
+      "ml": 2,
+      "price": 150,
+      "soldOut": false
+     },
+     {
+      "ml": 3,
+      "price": 200,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 330,
+      "soldOut": false
+     },
+     {
+      "ml": 10,
+      "price": 490,
+      "soldOut": false
+     },
+     {
+      "ml": 15,
+      "price": 720,
+      "soldOut": false
+     },
+     {
+      "ml": 30,
+      "price": 1340,
       "soldOut": false
      }
     ],
-    "soldOut": false
+    "image": "images/snya-mv33xaed.jpg"
    },
    {
-    "id": "P1HICEB1",
+    "id": "HWSICE",
     "name": "Hawas Ice EDP",
     "brand": "Rasasi",
     "sizes": [
      {
       "ml": 2,
-      "price": 155,
+      "price": 145,
       "soldOut": false
      },
      {
       "ml": 3,
-      "price": 195,
+      "price": 190,
       "soldOut": false
      },
      {
       "ml": 6,
-      "price": 320,
+      "price": 315,
       "soldOut": false
      },
      {
@@ -194,7 +193,7 @@
      },
      {
       "ml": 15,
-      "price": 695,
+      "price": 700,
       "soldOut": false
      },
      {
@@ -205,87 +204,13 @@
     ]
    },
    {
-    "id": "P1ATLNTSXTRTB1",
-    "name": "Atlantis Extrait EDP",
-    "brand": "French Avenue",
-    "sizes": [
-     {
-      "ml": 2,
-      "price": 175,
-      "soldOut": false
-     },
-     {
-      "ml": 3,
-      "price": 220,
-      "soldOut": false
-     },
-     {
-      "ml": 6,
-      "price": 370,
-      "soldOut": false
-     },
-     {
-      "ml": 10,
-      "price": 570,
-      "soldOut": false
-     },
-     {
-      "ml": 15,
-      "price": 830,
-      "soldOut": false
-     },
-     {
-      "ml": 30,
-      "price": 1610,
-      "soldOut": false
-     }
-    ]
-   },
-   {
-    "id": "P1LQBRUNB1",
-    "name": "Liquid Brun EDP",
-    "brand": "French Avenue",
-    "sizes": [
-     {
-      "ml": 2,
-      "price": 175,
-      "soldOut": false
-     },
-     {
-      "ml": 3,
-      "price": 220,
-      "soldOut": false
-     },
-     {
-      "ml": 6,
-      "price": 370,
-      "soldOut": false
-     },
-     {
-      "ml": 10,
-      "price": 570,
-      "soldOut": false
-     },
-     {
-      "ml": 15,
-      "price": 830,
-      "soldOut": false
-     },
-     {
-      "ml": 30,
-      "price": 1610,
-      "soldOut": false
-     }
-    ]
-   },
-   {
-    "id": "P1RAYTERRAB1",
+    "id": "RHNTRA",
     "name": "Terra EDP",
     "brand": "Rayhaan",
     "sizes": [
      {
       "ml": 2,
-      "price": 140,
+      "price": 135,
       "soldOut": false
      },
      {
@@ -295,22 +220,96 @@
      },
      {
       "ml": 6,
-      "price": 270,
+      "price": 260,
       "soldOut": false
      },
      {
       "ml": 10,
-      "price": 395,
+      "price": 380,
       "soldOut": false
      },
      {
       "ml": 15,
-      "price": 560,
+      "price": 540,
       "soldOut": false
      },
      {
       "ml": 30,
-      "price": 1065,
+      "price": 1020,
+      "soldOut": false
+     }
+    ]
+   },
+   {
+    "id": "LQDBRN",
+    "name": "Liquid Brun EDP",
+    "brand": "French Avenue",
+    "sizes": [
+     {
+      "ml": 2,
+      "price": 165,
+      "soldOut": false
+     },
+     {
+      "ml": 3,
+      "price": 220,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 375,
+      "soldOut": false
+     },
+     {
+      "ml": 10,
+      "price": 595,
+      "soldOut": false
+     },
+     {
+      "ml": 15,
+      "price": 845,
+      "soldOut": false
+     },
+     {
+      "ml": 30,
+      "price": 1655,
+      "soldOut": false
+     }
+    ]
+   },
+   {
+    "id": "ATLNTSXTRT",
+    "name": "Atlantis Extrait EDP",
+    "brand": "French Avenue",
+    "sizes": [
+     {
+      "ml": 2,
+      "price": 165,
+      "soldOut": false
+     },
+     {
+      "ml": 3,
+      "price": 220,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 360,
+      "soldOut": false
+     },
+     {
+      "ml": 10,
+      "price": 540,
+      "soldOut": false
+     },
+     {
+      "ml": 15,
+      "price": 775,
+      "soldOut": false
+     },
+     {
+      "ml": 30,
+      "price": 1530,
       "soldOut": false
      }
     ]
@@ -503,7 +502,12 @@
    }
   ]
  },
- "bottles": [],
+ "bottles": [
+  {
+   "name": "Regular",
+   "price": 0
+  }
+ ],
  "names": {
   "perfume": "Riverine Perfumes",
   "attar": "Fragroot"
@@ -513,7 +517,16 @@
   "perfume": "100% Authentic Perfume Decants",
   "attar": "Best Quality Perfume Oils"
  },
- "perfumeBottles": [],
+ "perfumeBottles": [
+  {
+   "name": "Regular",
+   "price": 0
+  },
+  {
+   "name": "BDC",
+   "price": 0
+  }
+ ],
  "perfumeBottleMl": 30,
  "bottleGallery": {
   "perfume": [],
