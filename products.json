@@ -126,7 +126,8 @@
       "price": 2100,
       "soldOut": false
      }
-    ]
+    ],
+    "image": "images/snya40-mv40gu3e.jpg"
    },
    {
     "id": "SNYA",
@@ -164,7 +165,7 @@
       "soldOut": false
      }
     ],
-    "image": "images/snya-mv33xaed.jpg"
+    "image": "images/snya-mv40h1p3.jpg"
    },
    {
     "id": "HWSICE",
@@ -201,7 +202,8 @@
       "price": 1320,
       "soldOut": false
      }
-    ]
+    ],
+    "image": "images/hwsice-mv40h68u.jpg"
    },
    {
     "id": "RHNTRA",
@@ -238,7 +240,8 @@
       "price": 1020,
       "soldOut": false
      }
-    ]
+    ],
+    "image": "images/rhntra-mv40hdnh.jpg"
    },
    {
     "id": "LQDBRN",
@@ -275,7 +278,8 @@
       "price": 1655,
       "soldOut": false
      }
-    ]
+    ],
+    "image": "images/lqdbrn-mv40hioj.jpg"
    },
    {
     "id": "ATLNTSXTRT",
@@ -312,7 +316,8 @@
       "price": 1530,
       "soldOut": false
      }
-    ]
+    ],
+    "image": "images/atlntsxtrt-mv40hnrp.jpg"
    }
   ],
   "attar": [
