@@ -519,17 +519,47 @@
  },
  "perfumeBottles": [
   {
-   "name": "Regular",
+   "name": "Regular 30ml",
    "price": 0
   },
   {
-   "name": "BDC",
+   "name": "BDC 30ml",
    "price": 0
   }
  ],
  "perfumeBottleMl": 30,
  "bottleGallery": {
-  "perfume": [],
-  "attar": []
+  "perfume": [
+   {
+    "name": "BDC 30ml",
+    "image": "images/bottle-perfume-mv34tao1.jpg"
+   },
+   {
+    "name": "15ml Square",
+    "image": "images/bottle-perfume-mv34ussh.jpg"
+   },
+   {
+    "name": "10ml",
+    "image": "images/bottle-perfume-mv35j96k.jpg"
+   },
+   {
+    "name": "6ml",
+    "image": "images/bottle-perfume-mv35macj.jpg"
+   },
+   {
+    "name": "3ml",
+    "image": "images/bottle-perfume-mv35xrsc.jpg"
+   },
+   {
+    "name": "2ml",
+    "image": "images/bottle-perfume-mv35z8sr.jpg"
+   }
+  ],
+  "attar": [
+   {
+    "name": "Regular (12ml | 6ml | 3ml)",
+    "image": "images/bottle-attar-mv34pv7s.jpg"
+   }
+  ]
  }
 }
