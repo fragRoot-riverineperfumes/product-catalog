@@ -511,6 +511,11 @@
   {
    "name": "Regular",
    "price": 0
+  },
+  {
+   "name": "Premium",
+   "price": 180,
+   "ml": 12
   }
  ],
  "names": {
@@ -525,11 +530,23 @@
  "perfumeBottles": [
   {
    "name": "Regular 30ml",
-   "price": 0
+   "price": 0,
+   "ml": 30
   },
   {
    "name": "BDC 30ml",
-   "price": 0
+   "price": 0,
+   "ml": 30
+  },
+  {
+   "name": "15ml Cube",
+   "price": 0,
+   "ml": 15
+  },
+  {
+   "name": "15ml Square",
+   "price": 0,
+   "ml": 15
   }
  ],
  "perfumeBottleMl": 30,
@@ -558,12 +575,24 @@
    {
     "name": "2ml",
     "image": "images/bottle-perfume-mv35z8sr.jpg"
+   },
+   {
+    "name": "15 ml Cube",
+    "image": "images/bottle-perfume-mv81iee0.jpg"
+   },
+   {
+    "name": "Regular 30ml",
+    "image": "images/bottle-perfume-mv81ijqf.jpg"
    }
   ],
   "attar": [
    {
     "name": "Regular (12ml | 6ml | 3ml)",
     "image": "images/bottle-attar-mv34pv7s.jpg"
+   },
+   {
+    "name": "Premium 12ml",
+    "image": "images/bottle-attar-mv81hsyh.jpg"
    }
   ]
  }

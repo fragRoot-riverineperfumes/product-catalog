@@ -1459,13 +1459,22 @@
         );
       }
       function bottlesFor(t, ml) {
-        if (t === "attar") return BOTTLES;
-        return t === "perfume" && +ml === PB_ML ? PBOTTLES : [];
+        var list = t === "attar" ? BOTTLES : t === "perfume" ? PBOTTLES : [];
+        return list.filter(function (b) {
+          return b.ml == null || +b.ml === 0 || +b.ml === +ml;
+        }).filter(function (b) {
+          return !(+b.ml === 0 && list.some(function (other) {
+            return other.name === b.name && +other.ml === +ml && +ml !== 0;
+          }));
+        });
       }
       function bottleExtra(s, b, t) {
         if (!b) return 0;
         if (s.bottles && s.bottles[b] != null) return +s.bottles[b];
-        var g = bottlesFor(t || "attar", s.ml).filter(function (x) {
+        var options = bottlesFor(t || "attar", s.ml),
+          g = options.filter(function (x) {
+            return x.name === b && +x.ml === +s.ml;
+          })[0] || options.filter(function (x) {
           return x.name === b;
         })[0];
         return g ? +g.price : 0;
